@@ -8,5 +8,5 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res, next) => {
-  res.json(`VPS rodando Node.JS pelo Docker na porta ${port}`);
+  res.json(`VPS rodando Node.JS pelo Docker na porta ${port}!`);
 });
